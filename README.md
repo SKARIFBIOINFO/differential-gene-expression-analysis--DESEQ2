@@ -14,7 +14,7 @@ This repository contains R scripts and documentation for the analysis of differe
 ### 1. Data Collection
 The datasets were downloaded from GEO:
 - **[GSE125583]**: RNA-Seq data from the fusiform gyrus of 5 AD and 5 control post-mortem. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125583
-- **GSE181981**: RNA-Seq data from the amygdala of 12 AUD and 12 control samples.https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+- **GSE181981**: RNA-Seq data from the amygdala of 12 AUD and 12 control sampleshttps://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181981
 
 ### 2. Preprocessing and Differential Expression Analysis
 #### Alzheimer's Dataset (GSE125583):
