@@ -53,17 +53,26 @@ The datasets were downloaded from GEO:
 3. **No Overlap:**
    - The lack of overlapping DEGs may be due to differences in brain regions, experimental designs, or biological variation.
 
-## Requirements
-### Software and Tools:
-- R (version >= 4.0)
-- RStudio
-- GEOquery, DESeq2, ggplot2
+## plots 
+**MA plot showing differential gene expression between Alzheimer’s and control samples.**
 
-### R Packages:
-```r
-install.packages(c("GEOquery", "DESeq2", "ggplot2"))
-```
+![image](https://github.com/user-attachments/assets/574034a4-25c8-4267-aaf0-59927d74a60f)
+ -A total of 83 genes are significantly upregulated (blue dots above the horizontal line), while 242 genes are downregulated (blue dots below the line). The x-axis represents the mean normalized counts (log scale), and the y-axis shows the log2 fold change in expression. This plot highlights key genes potentially contributing to Alzheimer’s pathology or altered due to disease-related processes.
 
+ **Most highly expressed gene in the  Alzheimer’s dataset compared to the normal.**
+
+ ![image](https://github.com/user-attachments/assets/e5d6c9c2-5695-4cfe-ae9b-5fc8f077d76b)
+-Plot of normalized counts for the most significantly differentially expressed gene (ID: 84632) identified by DESeq2 (lowest adjusted p-value). **GeneID 84632 (AFAP1L2)** is actin filament associated protein 1 like 2.
+
+**MA plot showing differential gene expression between Alcohol affected  and control samples.**
+
+![image](https://github.com/user-attachments/assets/9186df30-3312-4a5e-a614-4cde11a3c686)
+-This MA plot visualizes the differential gene expression analysis for the alcohol dataset. Each point represents a gene, plotted with its mean normalized expression counts (x-axis) against its log fold change (y-axis). Highlighted in blue are 2 upregulated genes and 3 downregulated genes that passed the significance threshold. The majority of genes (in gray) showed no significant differential expression between conditions.
+
+**Most highly expressed gene in the  Alcohol dataset compared to the normal.**
+
+![image](https://github.com/user-attachments/assets/ef31442e-e752-417c-83bf-ed34168ab466)
+-This MA plot visualizes the differential gene expression analysis for the alcohol dataset. Each point represents a gene, plotted with its mean normalized expression counts (x-axis) against its log fold change (y-axis).** Gene ID 999 is a (CDH1) cadherin 1.**
 
 ## References
 1. Joshi, A., Giorgi, F. M., & Sanna, P. P. (2024). Transcriptional Patterns in Stages of Alzheimer's Disease Are Cell-Type Specific and Partially Converge with the Effects of Alcohol Use Disorder in Humans. *ENeuro*, 11(10). https://doi.org/10.1523/ENEURO.0118-24.2024
