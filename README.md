@@ -72,7 +72,7 @@ The datasets were downloaded from GEO:
 **Most highly expressed gene in the  Alcohol dataset compared to the normal.**
 
 ![image](https://github.com/user-attachments/assets/ef31442e-e752-417c-83bf-ed34168ab466)
--This MA plot visualizes the differential gene expression analysis for the alcohol dataset. Each point represents a gene, plotted with its mean normalized expression counts (x-axis) against its log fold change (y-axis).** Gene ID 999 is a (CDH1) cadherin 1.**
+-This MA plot visualizes the differential gene expression analysis for the alcohol dataset. Each point represents a gene, plotted with its mean normalized expression counts (x-axis) against its log fold change (y-axis).**Gene ID 999 is a (CDH1) cadherin 1.**
 
 ## References
 1. Joshi, A., Giorgi, F. M., & Sanna, P. P. (2024). Transcriptional Patterns in Stages of Alzheimer's Disease Are Cell-Type Specific and Partially Converge with the Effects of Alcohol Use Disorder in Humans. *ENeuro*, 11(10). https://doi.org/10.1523/ENEURO.0118-24.2024
